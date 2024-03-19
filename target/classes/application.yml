@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: microservice-bank-config
+  cloud:
+    config:
+      server:
+        git:
+          ignore-local-ssh-settings: true
+          default-label: main
+          uri: https://github.com/bootcamp39/microservice-bank-config.git
+          search-paths: config-data
+          #username: csanmont
+          #password: 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

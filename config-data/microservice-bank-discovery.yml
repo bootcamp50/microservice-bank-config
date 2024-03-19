@@ -1,0 +1,14 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: microservice-bank-discovery
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: http://bank-dicovery.eubgdbdgarc4bme3.eastus.azurecontainer.io
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
