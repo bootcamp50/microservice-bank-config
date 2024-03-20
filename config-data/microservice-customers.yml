@@ -9,8 +9,8 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl: 
-      #defaultZone: http://bank-dicovery.eubgdbdgarc4bme3.eastus.azurecontainer.io:8761/eureka  
-      defaultZone: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io:8761/eureka
+      #defaultZone: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io:8761/eureka
+      defaultZone: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io:8080/eureka
     
 spring:
   application:
