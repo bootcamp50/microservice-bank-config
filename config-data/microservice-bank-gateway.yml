@@ -19,7 +19,7 @@ spring:
     gateway:
       routes:
         - id: microservice-customers
-          uri: http://localhost:8081
+          uri: http://customers:8081
           predicates: 
           - Path=/person/**
         - id: microservice-passive-accounts
