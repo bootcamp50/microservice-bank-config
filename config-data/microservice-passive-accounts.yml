@@ -1,5 +1,3 @@
-server:
-  port: 8082
 eureka:
   instance:
     prefer-ip-address: true
@@ -9,7 +7,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl: 
-      defaultZone: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io:8761/eureka    
+      defaultZone: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io/eureka
 
 spring:
   application:

@@ -1,5 +1,3 @@
-#server:
-#  port: 8888
 spring:
   application:
     name: microservice-bank-config
@@ -11,5 +9,3 @@ spring:
           default-label: main
           uri: https://github.com/bootcamp50/microservice-bank-config.git
           search-paths: config-data
-          #username: csanmont
-          #password: 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
