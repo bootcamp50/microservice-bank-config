@@ -1,10 +1,12 @@
+server:
+  port: 8761
 spring:
   application:
     name: microservice-bank-discovery
 eureka:
   instance:
     prefer-ip-address: true
-    hostname: http://bank-discovery.crexfme8bye6evhu.eastus.azurecontainer.io
+    hostname: localhost
   client:
     fetch-registry: false
     register-with-eureka: false
